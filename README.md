@@ -91,7 +91,7 @@ Note that he uses Reprap firmware with this build and thus he does not need a Ra
 ## Picture of build
 Here is a picture of my build. It has a 170x120mm build area. That helps in fitting everything into the electronics bay, but from what I can measure it should work with a standard v0 as well.
 
-I combined this with my quad cam lock mod that uses zero panels. That mod is still missing door hinges.
+I combined this with my quad cam lock mod that uses custom zero panels.
 
 &nbsp;<br>
 <img src="Images/build.jpg" alt="a picture of a Voron v0 with the mod installed" width="200"/>
@@ -100,9 +100,8 @@ I combined this with my quad cam lock mod that uses zero panels. That mod is sti
 ## Known issues
 * The inner pair of screws that hold the z frame bracket to the rear extrusion are tricky to reach. Not all allen keys will fit.
 * A split deck panel and cover would be good to simplify assembly/disassembly
-* Mounting brackets for all electronics components
-* Covers for the cable holes in the deck panel?
-* Electronics bay gets quite hot. I run AB motors at 0.5A RMS and Z motor at 0.3A RMS to keep things cool and sensorless homing from acting up. Probably need to add a fan somewhere in the electronics bay.
+* The electronics bay gets hot during pringing. I run AB motors at 0.5A RMS and Z motor at 0.3A RMS to keep things cool and sensorless homing from acting up. Probably need to add a fan somewhere in the electronics bay.
+* Having the AB motors inside the enclosure makes sensorless homing more finicky to set up as the threshold values tend to vary with motor temperature.
 
 ## Disclamer
 If you build this you do so at your own risk. I am not responsible if the design is incorrect or if something goes wrong. Please do your own research and act responsibly.
